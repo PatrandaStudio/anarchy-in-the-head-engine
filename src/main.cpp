@@ -4,11 +4,11 @@
 #include "Entity.h"
 #include "Point.h"
 #include "Item.h"
-#include "DataBase.h"
+//#include "DataBase.h"
 
 using namespace std;
 
-//static Entity player = Entity(0, 32, 100, '%', Point(10, 20));
+static Entity player = Entity(0, 32, 100, '%', Point(10, 20));
 
 static Block BlockList[4] = {
 	Block(0, 0, ' ', false),
@@ -60,7 +60,7 @@ int main() {
 		entitys[i].position = Point(rand() % 20, rand() % 40);
 	}
 	while (1) {
-		//cout << "\x1B[2J\x1B[H";
+		cout << "\x1B[2J\x1B[H";
 		for (int i = 0; i < 20; i++) {
 			for (int j = 0; j < 40; j++) {
 				if ((i == 0) || (j == 0) || (i == 19) || (j == 39)) {
@@ -110,6 +110,9 @@ int main() {
 			if (XY[player.position.x][player.position.y + 1].collision == false) {
 				player.position.y++;
 			}
+		}
+		if (cmd == 'q') {
+			exit(0);
 		}
 		/*if (cmd == '`') {
 			cout << "AITH:\\Admin> ";
