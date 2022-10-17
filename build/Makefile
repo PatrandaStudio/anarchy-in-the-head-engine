@@ -142,125 +142,101 @@ anarchy-in-the-head/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/build
 .PHONY : anarchy-in-the-head/fast
 
-src/Block.o: src/Block.cpp.o
-.PHONY : src/Block.o
+include/Block.o: include/Block.cpp.o
+.PHONY : include/Block.o
 
 # target to build an object file
-src/Block.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Block.cpp.o
-.PHONY : src/Block.cpp.o
+include/Block.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Block.cpp.o
+.PHONY : include/Block.cpp.o
 
-src/Block.i: src/Block.cpp.i
-.PHONY : src/Block.i
+include/Block.i: include/Block.cpp.i
+.PHONY : include/Block.i
 
 # target to preprocess a source file
-src/Block.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Block.cpp.i
-.PHONY : src/Block.cpp.i
+include/Block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Block.cpp.i
+.PHONY : include/Block.cpp.i
 
-src/Block.s: src/Block.cpp.s
-.PHONY : src/Block.s
+include/Block.s: include/Block.cpp.s
+.PHONY : include/Block.s
 
 # target to generate assembly for a file
-src/Block.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Block.cpp.s
-.PHONY : src/Block.cpp.s
+include/Block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Block.cpp.s
+.PHONY : include/Block.cpp.s
 
-src/Entity.o: src/Entity.cpp.o
-.PHONY : src/Entity.o
+include/Entity.o: include/Entity.cpp.o
+.PHONY : include/Entity.o
 
 # target to build an object file
-src/Entity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Entity.cpp.o
-.PHONY : src/Entity.cpp.o
+include/Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Entity.cpp.o
+.PHONY : include/Entity.cpp.o
 
-src/Entity.i: src/Entity.cpp.i
-.PHONY : src/Entity.i
+include/Entity.i: include/Entity.cpp.i
+.PHONY : include/Entity.i
 
 # target to preprocess a source file
-src/Entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Entity.cpp.i
-.PHONY : src/Entity.cpp.i
+include/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Entity.cpp.i
+.PHONY : include/Entity.cpp.i
 
-src/Entity.s: src/Entity.cpp.s
-.PHONY : src/Entity.s
+include/Entity.s: include/Entity.cpp.s
+.PHONY : include/Entity.s
 
 # target to generate assembly for a file
-src/Entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Entity.cpp.s
-.PHONY : src/Entity.cpp.s
+include/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Entity.cpp.s
+.PHONY : include/Entity.cpp.s
 
-src/Item.o: src/Item.cpp.o
-.PHONY : src/Item.o
+include/Physics.o: include/Physics.cpp.o
+.PHONY : include/Physics.o
 
 # target to build an object file
-src/Item.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Item.cpp.o
-.PHONY : src/Item.cpp.o
+include/Physics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Physics.cpp.o
+.PHONY : include/Physics.cpp.o
 
-src/Item.i: src/Item.cpp.i
-.PHONY : src/Item.i
+include/Physics.i: include/Physics.cpp.i
+.PHONY : include/Physics.i
 
 # target to preprocess a source file
-src/Item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Item.cpp.i
-.PHONY : src/Item.cpp.i
+include/Physics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Physics.cpp.i
+.PHONY : include/Physics.cpp.i
 
-src/Item.s: src/Item.cpp.s
-.PHONY : src/Item.s
+include/Physics.s: include/Physics.cpp.s
+.PHONY : include/Physics.s
 
 # target to generate assembly for a file
-src/Item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Item.cpp.s
-.PHONY : src/Item.cpp.s
+include/Physics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/include/Physics.cpp.s
+.PHONY : include/Physics.cpp.s
 
-src/Point.o: src/Point.cpp.o
-.PHONY : src/Point.o
+include/main.o: include/main.cpp.o
+.PHONY : include/main.o
 
 # target to build an object file
-src/Point.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Point.cpp.o
-.PHONY : src/Point.cpp.o
+include/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/include/main.cpp.o
+.PHONY : include/main.cpp.o
 
-src/Point.i: src/Point.cpp.i
-.PHONY : src/Point.i
-
-# target to preprocess a source file
-src/Point.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Point.cpp.i
-.PHONY : src/Point.cpp.i
-
-src/Point.s: src/Point.cpp.s
-.PHONY : src/Point.s
-
-# target to generate assembly for a file
-src/Point.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/src-lib.dir/build.make CMakeFiles/src-lib.dir/src/Point.cpp.s
-.PHONY : src/Point.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+include/main.i: include/main.cpp.i
+.PHONY : include/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+include/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/include/main.cpp.i
+.PHONY : include/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+include/main.s: include/main.cpp.s
+.PHONY : include/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+include/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/anarchy-in-the-head.dir/build.make CMakeFiles/anarchy-in-the-head.dir/include/main.cpp.s
+.PHONY : include/main.cpp.s
 
 # Help Target
 help:
@@ -272,21 +248,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... anarchy-in-the-head"
 	@echo "... src-lib"
-	@echo "... src/Block.o"
-	@echo "... src/Block.i"
-	@echo "... src/Block.s"
-	@echo "... src/Entity.o"
-	@echo "... src/Entity.i"
-	@echo "... src/Entity.s"
-	@echo "... src/Item.o"
-	@echo "... src/Item.i"
-	@echo "... src/Item.s"
-	@echo "... src/Point.o"
-	@echo "... src/Point.i"
-	@echo "... src/Point.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... include/Block.o"
+	@echo "... include/Block.i"
+	@echo "... include/Block.s"
+	@echo "... include/Entity.o"
+	@echo "... include/Entity.i"
+	@echo "... include/Entity.s"
+	@echo "... include/Physics.o"
+	@echo "... include/Physics.i"
+	@echo "... include/Physics.s"
+	@echo "... include/main.o"
+	@echo "... include/main.i"
+	@echo "... include/main.s"
 .PHONY : help
 
 

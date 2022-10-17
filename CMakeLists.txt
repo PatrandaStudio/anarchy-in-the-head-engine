@@ -4,9 +4,9 @@ project(anarchy-in-the-head) # Название проекта
 
 set(CMAKE_CXX_STANDARD 11) # Версия стандарта C++
 
-set(SOURCE_EXE src/main.cpp) # Установка переменной со списком исходников для исполняемого файла
+set(SOURCE_EXE include/main.cpp) # Установка переменной со списком исходников для исполняемого файла
 
-set(SOURCE_LIB src/Point.cpp src/Entity.cpp src/Block.cpp src/Item.cpp) # Установка переменной со списком исходников для библиотеки
+set(SOURCE_LIB include/Physics.cpp include/Entity.cpp include/Block.cpp) # Установка переменной со списком исходников для библиотеки
 
 add_library(src-lib STATIC ${SOURCE_LIB}) # Создание статической библиотеки
 

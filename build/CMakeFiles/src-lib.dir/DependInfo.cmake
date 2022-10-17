@@ -8,10 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Block.cpp" "CMakeFiles/src-lib.dir/src/Block.cpp.o" "gcc" "CMakeFiles/src-lib.dir/src/Block.cpp.o.d"
-  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Entity.cpp" "CMakeFiles/src-lib.dir/src/Entity.cpp.o" "gcc" "CMakeFiles/src-lib.dir/src/Entity.cpp.o.d"
-  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Item.cpp" "CMakeFiles/src-lib.dir/src/Item.cpp.o" "gcc" "CMakeFiles/src-lib.dir/src/Item.cpp.o.d"
-  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Point.cpp" "CMakeFiles/src-lib.dir/src/Point.cpp.o" "gcc" "CMakeFiles/src-lib.dir/src/Point.cpp.o.d"
+  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Block.cpp" "CMakeFiles/src-lib.dir/include/Block.cpp.o" "gcc" "CMakeFiles/src-lib.dir/include/Block.cpp.o.d"
+  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Entity.cpp" "CMakeFiles/src-lib.dir/include/Entity.cpp.o" "gcc" "CMakeFiles/src-lib.dir/include/Entity.cpp.o.d"
+  "/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Physics.cpp" "CMakeFiles/src-lib.dir/include/Physics.cpp.o" "gcc" "CMakeFiles/src-lib.dir/include/Physics.cpp.o.d"
   )
 
 # Targets to which this target links.

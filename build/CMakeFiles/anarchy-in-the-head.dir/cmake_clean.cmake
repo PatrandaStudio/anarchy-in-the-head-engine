@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/anarchy-in-the-head.dir/src/main.cpp.o"
-  "CMakeFiles/anarchy-in-the-head.dir/src/main.cpp.o.d"
+  "CMakeFiles/anarchy-in-the-head.dir/include/main.cpp.o"
+  "CMakeFiles/anarchy-in-the-head.dir/include/main.cpp.o.d"
   "anarchy-in-the-head"
   "anarchy-in-the-head.pdb"
 )

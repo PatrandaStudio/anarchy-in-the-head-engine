@@ -69,79 +69,63 @@ include CMakeFiles/src-lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/src-lib.dir/flags.make
 
-CMakeFiles/src-lib.dir/src/Point.cpp.o: CMakeFiles/src-lib.dir/flags.make
-CMakeFiles/src-lib.dir/src/Point.cpp.o: ../src/Point.cpp
-CMakeFiles/src-lib.dir/src/Point.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src-lib.dir/src/Point.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/src/Point.cpp.o -MF CMakeFiles/src-lib.dir/src/Point.cpp.o.d -o CMakeFiles/src-lib.dir/src/Point.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Point.cpp
+CMakeFiles/src-lib.dir/include/Physics.cpp.o: CMakeFiles/src-lib.dir/flags.make
+CMakeFiles/src-lib.dir/include/Physics.cpp.o: ../include/Physics.cpp
+CMakeFiles/src-lib.dir/include/Physics.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src-lib.dir/include/Physics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/include/Physics.cpp.o -MF CMakeFiles/src-lib.dir/include/Physics.cpp.o.d -o CMakeFiles/src-lib.dir/include/Physics.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Physics.cpp
 
-CMakeFiles/src-lib.dir/src/Point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/src/Point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Point.cpp > CMakeFiles/src-lib.dir/src/Point.cpp.i
+CMakeFiles/src-lib.dir/include/Physics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/include/Physics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Physics.cpp > CMakeFiles/src-lib.dir/include/Physics.cpp.i
 
-CMakeFiles/src-lib.dir/src/Point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/src/Point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Point.cpp -o CMakeFiles/src-lib.dir/src/Point.cpp.s
+CMakeFiles/src-lib.dir/include/Physics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/include/Physics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Physics.cpp -o CMakeFiles/src-lib.dir/include/Physics.cpp.s
 
-CMakeFiles/src-lib.dir/src/Entity.cpp.o: CMakeFiles/src-lib.dir/flags.make
-CMakeFiles/src-lib.dir/src/Entity.cpp.o: ../src/Entity.cpp
-CMakeFiles/src-lib.dir/src/Entity.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src-lib.dir/src/Entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/src/Entity.cpp.o -MF CMakeFiles/src-lib.dir/src/Entity.cpp.o.d -o CMakeFiles/src-lib.dir/src/Entity.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Entity.cpp
+CMakeFiles/src-lib.dir/include/Entity.cpp.o: CMakeFiles/src-lib.dir/flags.make
+CMakeFiles/src-lib.dir/include/Entity.cpp.o: ../include/Entity.cpp
+CMakeFiles/src-lib.dir/include/Entity.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src-lib.dir/include/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/include/Entity.cpp.o -MF CMakeFiles/src-lib.dir/include/Entity.cpp.o.d -o CMakeFiles/src-lib.dir/include/Entity.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Entity.cpp
 
-CMakeFiles/src-lib.dir/src/Entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/src/Entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Entity.cpp > CMakeFiles/src-lib.dir/src/Entity.cpp.i
+CMakeFiles/src-lib.dir/include/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/include/Entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Entity.cpp > CMakeFiles/src-lib.dir/include/Entity.cpp.i
 
-CMakeFiles/src-lib.dir/src/Entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/src/Entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Entity.cpp -o CMakeFiles/src-lib.dir/src/Entity.cpp.s
+CMakeFiles/src-lib.dir/include/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/include/Entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Entity.cpp -o CMakeFiles/src-lib.dir/include/Entity.cpp.s
 
-CMakeFiles/src-lib.dir/src/Block.cpp.o: CMakeFiles/src-lib.dir/flags.make
-CMakeFiles/src-lib.dir/src/Block.cpp.o: ../src/Block.cpp
-CMakeFiles/src-lib.dir/src/Block.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/src-lib.dir/src/Block.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/src/Block.cpp.o -MF CMakeFiles/src-lib.dir/src/Block.cpp.o.d -o CMakeFiles/src-lib.dir/src/Block.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Block.cpp
+CMakeFiles/src-lib.dir/include/Block.cpp.o: CMakeFiles/src-lib.dir/flags.make
+CMakeFiles/src-lib.dir/include/Block.cpp.o: ../include/Block.cpp
+CMakeFiles/src-lib.dir/include/Block.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/src-lib.dir/include/Block.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/include/Block.cpp.o -MF CMakeFiles/src-lib.dir/include/Block.cpp.o.d -o CMakeFiles/src-lib.dir/include/Block.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Block.cpp
 
-CMakeFiles/src-lib.dir/src/Block.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/src/Block.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Block.cpp > CMakeFiles/src-lib.dir/src/Block.cpp.i
+CMakeFiles/src-lib.dir/include/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/include/Block.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Block.cpp > CMakeFiles/src-lib.dir/include/Block.cpp.i
 
-CMakeFiles/src-lib.dir/src/Block.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/src/Block.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Block.cpp -o CMakeFiles/src-lib.dir/src/Block.cpp.s
-
-CMakeFiles/src-lib.dir/src/Item.cpp.o: CMakeFiles/src-lib.dir/flags.make
-CMakeFiles/src-lib.dir/src/Item.cpp.o: ../src/Item.cpp
-CMakeFiles/src-lib.dir/src/Item.cpp.o: CMakeFiles/src-lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/src-lib.dir/src/Item.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/src-lib.dir/src/Item.cpp.o -MF CMakeFiles/src-lib.dir/src/Item.cpp.o.d -o CMakeFiles/src-lib.dir/src/Item.cpp.o -c /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Item.cpp
-
-CMakeFiles/src-lib.dir/src/Item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src-lib.dir/src/Item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Item.cpp > CMakeFiles/src-lib.dir/src/Item.cpp.i
-
-CMakeFiles/src-lib.dir/src/Item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/src/Item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/src/Item.cpp -o CMakeFiles/src-lib.dir/src/Item.cpp.s
+CMakeFiles/src-lib.dir/include/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src-lib.dir/include/Block.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/include/Block.cpp -o CMakeFiles/src-lib.dir/include/Block.cpp.s
 
 # Object files for target src-lib
 src__lib_OBJECTS = \
-"CMakeFiles/src-lib.dir/src/Point.cpp.o" \
-"CMakeFiles/src-lib.dir/src/Entity.cpp.o" \
-"CMakeFiles/src-lib.dir/src/Block.cpp.o" \
-"CMakeFiles/src-lib.dir/src/Item.cpp.o"
+"CMakeFiles/src-lib.dir/include/Physics.cpp.o" \
+"CMakeFiles/src-lib.dir/include/Entity.cpp.o" \
+"CMakeFiles/src-lib.dir/include/Block.cpp.o"
 
 # External object files for target src-lib
 src__lib_EXTERNAL_OBJECTS =
 
-libsrc-lib.a: CMakeFiles/src-lib.dir/src/Point.cpp.o
-libsrc-lib.a: CMakeFiles/src-lib.dir/src/Entity.cpp.o
-libsrc-lib.a: CMakeFiles/src-lib.dir/src/Block.cpp.o
-libsrc-lib.a: CMakeFiles/src-lib.dir/src/Item.cpp.o
+libsrc-lib.a: CMakeFiles/src-lib.dir/include/Physics.cpp.o
+libsrc-lib.a: CMakeFiles/src-lib.dir/include/Entity.cpp.o
+libsrc-lib.a: CMakeFiles/src-lib.dir/include/Block.cpp.o
 libsrc-lib.a: CMakeFiles/src-lib.dir/build.make
 libsrc-lib.a: CMakeFiles/src-lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsrc-lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alex_pyslar/projects/Patranda-repos/anarchy-in-the-head-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsrc-lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/src-lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src-lib.dir/link.txt --verbose=$(VERBOSE)
 

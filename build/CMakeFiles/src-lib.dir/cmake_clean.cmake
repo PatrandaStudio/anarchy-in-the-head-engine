@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src-lib.dir/src/Block.cpp.o"
-  "CMakeFiles/src-lib.dir/src/Block.cpp.o.d"
-  "CMakeFiles/src-lib.dir/src/Entity.cpp.o"
-  "CMakeFiles/src-lib.dir/src/Entity.cpp.o.d"
-  "CMakeFiles/src-lib.dir/src/Item.cpp.o"
-  "CMakeFiles/src-lib.dir/src/Item.cpp.o.d"
-  "CMakeFiles/src-lib.dir/src/Point.cpp.o"
-  "CMakeFiles/src-lib.dir/src/Point.cpp.o.d"
+  "CMakeFiles/src-lib.dir/include/Block.cpp.o"
+  "CMakeFiles/src-lib.dir/include/Block.cpp.o.d"
+  "CMakeFiles/src-lib.dir/include/Entity.cpp.o"
+  "CMakeFiles/src-lib.dir/include/Entity.cpp.o.d"
+  "CMakeFiles/src-lib.dir/include/Physics.cpp.o"
+  "CMakeFiles/src-lib.dir/include/Physics.cpp.o.d"
   "libsrc-lib.a"
   "libsrc-lib.pdb"
 )
